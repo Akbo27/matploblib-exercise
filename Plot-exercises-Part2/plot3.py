@@ -22,10 +22,3 @@ def plot_funtion():
     plt.show()
 
 plot_funtion()
-
-
-
-
-
-
-
