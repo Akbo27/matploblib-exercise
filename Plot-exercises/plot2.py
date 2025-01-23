@@ -7,7 +7,7 @@ def plot_funtion():
     y = x * np. sin(2*x)
 
     plt.figure(figsize =(10,6))
-    plt.plot(x,y, color = "red", label="$f(x) = x * sin(2*x)")
+    plt.plot(x,y, color = "red", label="$f(x) = x * sin(2*x)", linestyle='dashed')
 
     plt.legend()
     plt.title('Graph of the Function $f(x) = x * sin(2*x)')

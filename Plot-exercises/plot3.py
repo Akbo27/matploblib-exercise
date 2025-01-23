@@ -7,7 +7,7 @@ def plot_funtion():
     y = np.arctan(x)
 
     plt.figure(figsize =(10,6))
-    plt.plot(x,y, color = "purple", label="$f(x) = arctg(x)")
+    plt.plot(x,y, color = "purple", label="$f(x) = arctg(x)", linestyle = 'dotted' )
 
     plt.legend()
     plt.title('Graph of the Function $f(x) = arctg(x)')

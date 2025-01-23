@@ -6,7 +6,7 @@ def plot_funtion():
     y = x**2
 
     plt.figure(figsize =(10,6))
-    plt.plot(x,y, color = "green", label="$f(x) = x^2$")
+    plt.plot(x,y, color = "green", label="$f(x) = x^2$", marker = '1')
 
     plt.legend()
     plt.title('Graph of the Function $f(x) = x^2$')
