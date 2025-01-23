@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def plot_funtion():
-    x = np.linspace(-10,10, 500)
+    x = np.linspace(-10,10, 30)
     y = x**2
 
     plt.figure(figsize =(10,6))
